@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 3 juego lucha DOOM</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        
+    <!--pantalla inicio despues del clear()-->
+    
+    <section id="screen1" class="screens">
+        <container class="contenedor1">
+           <div class="designScreen1">
+                <div class="init"><img src="assets/inicio.gif" onclick="changeScreen(2)"></div>
+
+           </div>
+        <div>
+            <div class="titulo"><a href="https://github.com/shencanet/Juego_lucha.git">SANTIAGO DIONIS github</a></div> 
+        </div> 
+      </div>
+    </section>
+
+    <!--pantalla 2 seleccion jugadores -->
+    <section id="screen2" class="screens" style="display:none">
+        <div class="designScreen2">
+            <div class="center">
+                <div class="characters">
+                    <div class="images">
+                        <div class="up"></div>
+                        <div class="content">
+                            
+                            <div class="face"><img src="img/luchadoresDOOM/Baron of Hell.png" height="200em" width="150em" id="1" class="chosen" onclick="choose1(1)">
+                                <div class="name">BARON</div>
+                            </div>
+
+                            <div class="face"><img src="img/luchadoresDOOM/Doom Slayer.png" height="200em" width="150em" id="2" class="chosen" onclick="choose1(2)">
+                                <div class="name">SLAYER</div>
+
+                            </div>
+                            <div class="face"><img src="img/luchadoresDOOM/Mancubus.png" height="200em" width="150em" id="3" class="chosen" onclick="choose1(3)">
+                                <div class="name">MANCUBUS</div>
+                            </div>
+
+                            <div class="face"><img src="img/luchadoresDOOM/Pinky.png" height="200em" width="150em" id="4" class="chosen" onclick="choose1(4)">
+                                <div class="name">PINKY</div>
+                            </div>
+
+                            
+                    </div>
+                </div>
+                            <div class="msg1">
+                                <img img src="img/luchadoresDOOM/doom6.gif">               
+                            </div>
+                            <div class="msg2">
+                                - SELECT YOUR ARGENT SOUL - 
+                            </div>
+                            <div class="Chosen">
+                                <div id="data1"class="NameDemon"></div>
+                                <div id="data2"class="NameDemon"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section>    
+
+    <!--BATALLA -->
+    <section id="screen3" class="screens" style="display:none">
+        <div class="designScreen3" id= "pokes">
+            <div class="center">
+                <div class="left" >
+                    <div class="fighter1"id="imgFighter1"></div>
+                    <div id="stats1" class="life1"></div>
+               </div>
+               <div class="mid">
+                    <div class="button"><img class="fightLogo" src="img/logos/kindpng.png" alt="fight" onclick="fight()"></div>
+                </div>
+                <div class="right">
+                    <div class="fighter2"id="imgFighter2"></div>
+                    <div id="stats2" class="life2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--GANADORES-->
+ <section id="screen4" class="screens" style="display:none" onclick="changeScreen(5)">
+        <div class="designScreen4">
+            <div class="win" id ="winner"></div>
+        </div>
+    </section>
+
+ <!--CREDITOS-->
+    <section id="screen5" class="screens" style="display:none" >
+        <div class="designScreen5">
+            <section class="home" id="home">
+                <div class="final-container" onclick="cleanGame()">
+                    <img src="assets/final.gif" id="video-slider"  height="700em" width="1000em" loop autoplay muted></img>
+                </div>
+            </section>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>

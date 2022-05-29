@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:.4rem 1.4rem;
+    background: radial-gradient(circle, rgba(175,15,15,1) 0%, rgba(10,18,27,1) 49%, rgba(10,29,33,1) 88%);
+}
+*{
+    font-family: 'Nunito' sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center ;
+    background-color: #a9a9a9;
+}
+
+.titulo{
+    color: #cd7f32;
+    font: bold 120% cursive;
+    font-family: Nunito, sans-serif;
+     font-size: x-large;
+    
+    
+
+}
+/*Screens*/
+.screens {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(175,15,15);
+background: radial-gradient(circle, rgba(175,15,15,1) 0%, rgba(10,18,27,1) 49%, rgba(10,29,33,1) 88%);
+}
+
+.designScreen1 {
+
+}
+
+
+.designScreen2 {
+    background-image:url(../img/fondos/cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+
+    height: 100vh;
+    width: 100vw;
+}
+.designScreen3 {
+    background-image: url(../img/fondos/batalla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+}
+.designScreen4 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image:url(../img/fondos/wall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 100vh;
+    width: 100vw;
+}
+.designScreen5 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image:url(../img/fondos/EIer.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+    height: 100vh;
+    width: 100vw;
+}
+/*Screen2*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.characters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45em;
+    width: 100vw;
+    flex-direction: column;
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30em;
+    width: 100vw;
+}
+.up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    width: 100vw;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20em;
+    width: 100vw;
+}
+.face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20em;
+    width: 12em;
+}
+.msg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: larger;
+    font-family: Nunito;
+    font-weight: bolder;
+    height: 6em;
+    width: 100vw;
+}
+.msg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: larger;
+    font-family:Nunito;
+
+    height: 6em;
+    width: 100vw; 
+}
+
+.selected {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.Chosen {
+    width: 60em;
+    height: 16em;
+    font-size:larger;
+    font-weight: bold;
+    font-family: Nunito;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.NameDemon {
+    font-size:4em;
+
+}
+/*Screen3*/
+.left {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 30em;
+}
+.mid {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 60em;
+}
+.right {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 30em;
+}
+.fighter1 {
+    height: 15em;
+    width: 10em;
+}
+.fighter2 {
+    height: 15em;
+    width: 10em;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30em;
+    width: 30em;
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30em;
+    width: 30em;
+
+}
+.fightLogo {
+    height: 20em;
+    width: 20em;
+}
+
+/*Screen4*/
+
+#winner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 20em;
+    width: 30em;
+    color: white;
+    font-size: larger;
+    font-family:Nunito;
+}
+.winner {
+    height: 30em;
+    width: 40em;
+}
+
+.lifeBar{
+    display: flex;
+
+    height: 1em;    
+    border-radius: .5em;
+    width: 8em;
+    border: .2em solid yellow;
+    background-color: black;
+}
+
+#lifeBar1, #lifeBar2 {
+    display: flex;
+    position: relative;
+
+    background: greenyellow;
+    height: 1em;
+    width: 8em;
+    transition: width 0.2s;
+}
