@@ -6,19 +6,19 @@ Se aplican programacion orientada a objetos para el desarrollo de los personajes
 ## Contenido
 
 El juego esta desarrolado en una sola pagina "index.html" y se intercambian las vistas con metodologia DOM
-Se tienen 5 vistas que el usuario pueda cambiar a su gusto para jugar
+Se tienen 5 vistas que el usuario pueda cambiar  para jugar
 
 ## Vista inicio
 Tenemos el inicio con un gif que al pulsar se desencadena un evento que nos lleva a la pagina de seleccion de personaje
 debajo un enlace a github del proyecto.
-![](/readme/01-pantalla inicio.jpg)
+![](/readme/01-pantalla-inicio.jpg)
 
 
 
 ## Seleccion de personajes 
 
-En la pantalla dos tenemos la seleccion de personajes donde el actor debe elegir entre 4 personajes cada uno tiene caracteristicas diferentes al aplicar metodologia POO para mejorar la jugabilidad.
-Los personajes solo son selecionables por un jugador quedan inabilitados patron color selecionable y gris block.
+En la pantalla 2 tenemos la seleccion de personajes donde el actor debe elegir entre 4 personajes cada uno tiene caracteristicas diferentes al aplicar metodologia POO para mejorar la jugabilidad.
+Los personajes solo son selecionables por un jugador quedan inabilitados con el patron color selecionable y gris block.
 Al ser selecionado aparece el nombre del personaje abajo con su equipo .
 ahi un delay de 2 sec para cambiar la pantalla de batalla el actor no debe pulsar para empezar la batalla
 ![](/readme/02-seleccion-personaje.jpg)
@@ -27,10 +27,10 @@ ahi un delay de 2 sec para cambiar la pantalla de batalla el actor no debe pulsa
 ## Pantalla Batalla
 
 En esta pantalla la batalla es por turnos
-tenemos el boton marcado en el centro donde al pulsar cada jugador de forma automatica hace un ataque
-el daño esta definido en una funcion random entre 1 y 20 de 150 de vida total.
-el jugador que llegue a 0 pierde
-a los lados tenemos don animaciones y debajo nuestra barra de salud  color amarillo vida restante cuando se vacia se pierde la partida
+tenemos el boton marcado en el centro donde al pulsar cada equipo  de forma automatica genera un ataque
+El daño esta definido en una funcion random entre 1 y 20 sobre  150 de vida total.
+el jugador que consiga hacer perder toda la energia al contrario gana. 
+a los lados tenemos don animaciones y debajo nuestra barra de salud  color amarillo vida restante cuando se vacia se pierde la partida.
 ![](/readme/03-batalla.jpg)
 ![](/readme/03-gif-batalla.jpg)
 
