@@ -9,7 +9,7 @@ El juego esta desarrolado en una sola pagina "index.html" y se intercambian las 
 Se tienen 5 vistas que el usuario pueda cambiar a su gusto para jugar
 
 ## Vista inicio
-Tenemos el inicio con un gif que al pulsar se desencadena un evento que  nos lleva a la pagina de seleccion de personaje
+Tenemos el inicio con un gif que al pulsar se desencadena un evento que nos lleva a la pagina de seleccion de personaje
 debajo un enlace a github del proyecto.
 ![](/readme/01-pantalla inicio.jpg)
 
@@ -17,11 +17,11 @@ debajo un enlace a github del proyecto.
 
 ## Seleccion de personajes 
 
-En la pantalla dos tenemos la selecciond e personajes el actor debe elegir entre 4 personajes cada uno tiene caracteristicas diferntes al aplicar metodologia POO para mejorar la jugabilidad
-Los personajes solo son selecionables por un jugador quedan inabilitados patron color selecionable gris block.
-al ser selecionado aparece el nombre del personaje abajo con su equipo 
+En la pantalla dos tenemos la seleccion de personajes donde el actor debe elegir entre 4 personajes cada uno tiene caracteristicas diferentes al aplicar metodologia POO para mejorar la jugabilidad.
+Los personajes solo son selecionables por un jugador quedan inabilitados patron color selecionable y gris block.
+Al ser selecionado aparece el nombre del personaje abajo con su equipo .
 ahi un delay de 2 sec para cambiar la pantalla de batalla el actor no debe pulsar para empezar la batalla
-![](/readme/02-seleccion personaje.jpg)
+![](/readme/02-seleccion-personaje.jpg)
 
 
 ## Pantalla Batalla
